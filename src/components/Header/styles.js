@@ -6,8 +6,9 @@ export const styles = StyleSheet.create({
     backgroundColor: "#cb5740",
     alignItems: "center",
     // justifyContent: 'center',
-    // height: '%100',
-    paddingTop: 50,
+    // height: 90,
+    justifyContent: "center",
+    paddingTop: 35,
   },
   titulo: {
     fontSize: 22,
