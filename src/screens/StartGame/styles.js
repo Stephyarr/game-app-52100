@@ -1,12 +1,14 @@
 import { StyleSheet } from "react-native";
 
+import colors from "../../constants/colors";
+
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 10,
     alignItems: "center",
     paddingTop: 50,
-    backgroundColor: "#ffd36f",
+    backgroundColor: colors.primary,
   },
   buttonContainer: {
     flexDirection: "row",
@@ -19,7 +21,7 @@ export const styles = StyleSheet.create({
     fontSize: 20,
   },
   cleanButton: {
-    backgroundColor: "#cb5740",
+    backgroundColor: colors.bottons,
     height: 40,
     width: 100,
     borderRadius: 10,
@@ -28,6 +30,6 @@ export const styles = StyleSheet.create({
   },
   textButton: {
     fontSize: 18,
-    color: "white",
+    color: colors.white,
   },
 });
