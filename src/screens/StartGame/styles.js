@@ -32,4 +32,8 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     color: colors.white,
   },
+  selectCard: {
+    width: "70%",
+    marginTop: 50,
+  },
 });

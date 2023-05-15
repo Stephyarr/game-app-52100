@@ -4,7 +4,7 @@ import colors from "../../constants/colors";
 
 export const styles = StyleSheet.create({
   input: {
-    height: 30,
+    height: 20,
     borderBottomColor: colors.black,
     borderBottomWidth: 2,
     marginVertical: 10,
