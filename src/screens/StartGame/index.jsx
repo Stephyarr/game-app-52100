@@ -62,8 +62,8 @@ export const StartGame = ({ onStartGame }) => {
           </Card>
           {confirm && (
             <Card otherStyles={styles.selectCard}>
-              <Text>You numbre is: </Text>
-              <Text>{selectedNumber}</Text>
+              <Text style={styles.textStart}>You numbre is: </Text>
+              <Text style={styles.textStart}>{selectedNumber}</Text>
               <View>
                 <Button
                   title="Start Game"

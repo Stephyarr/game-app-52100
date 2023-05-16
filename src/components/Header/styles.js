@@ -12,5 +12,6 @@ export const styles = StyleSheet.create({
   },
   titulo: {
     fontSize: 22,
+    fontFamily: "NanumGothic-Bold",
   },
 });

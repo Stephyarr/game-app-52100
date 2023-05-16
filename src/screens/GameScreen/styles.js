@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
   },
   textColor: {
     color: colors.black,
+    fontSize: 18,
   },
   buttonContainer: {
     flexDirection: "row",

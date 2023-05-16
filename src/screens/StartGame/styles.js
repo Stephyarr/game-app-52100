@@ -19,6 +19,7 @@ export const styles = StyleSheet.create({
   },
   subtitle: {
     fontSize: 20,
+    fontFamily: "NanumGothic-Bold",
   },
   cleanButton: {
     backgroundColor: colors.bottons,
@@ -35,5 +36,9 @@ export const styles = StyleSheet.create({
   selectCard: {
     width: "70%",
     marginTop: 50,
+  },
+  textStart: {
+    fontFamily: "NanumGothic-ExtraBold",
+    fontSize: 16,
   },
 });
